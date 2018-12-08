@@ -122,6 +122,11 @@ h3 {
     position:relative;
     margin: 10px 10px 10px 10px;
 }
+.clearfix::after {
+    content: "";
+    display: block;
+    clear:both;
+}
 input {
     width:100%;
 }
